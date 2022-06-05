@@ -2,8 +2,8 @@
   "tests": [
     {
       "name": "test1",
-      "setup": "javac test",
-      "run": "java test",
+      "setup": "javac Main.java",
+      "run": "java Main",
       "input": "",
       "output": "Hello World",
       "comparison": "exact",
