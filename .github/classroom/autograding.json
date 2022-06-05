@@ -9,6 +9,16 @@
       "comparison": "exact",
       "timeout": 10,
       "points": 10
+    },
+    {
+      "name": "test2",
+      "setup": "",
+      "run": "gradle test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
     }
   ]
 }
