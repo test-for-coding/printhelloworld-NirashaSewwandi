@@ -12,8 +12,8 @@
     },
     {
       "name": "test2",
-      "setup": "",
-      "run": "gradle test",
+      "setup": "javac Main.java",
+      "run": "java Main",
       "input": "",
       "output": "",
       "comparison": "included",
