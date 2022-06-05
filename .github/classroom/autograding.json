@@ -2,13 +2,23 @@
   "tests": [
     {
       "name": "test1",
-      "setup": "javac test",
-      "run": "java test",
+      "setup": "javac Main.java",
+      "run": "java Main",
       "input": "",
       "output": "Hello World",
       "comparison": "exact",
       "timeout": 10,
       "points": 10
+    },
+    {
+      "name": "test2",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
     }
   ]
 }
